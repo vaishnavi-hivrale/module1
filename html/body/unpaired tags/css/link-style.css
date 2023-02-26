@@ -1,0 +1,13 @@
+body
+{
+    background-color: plum;
+    border: thin;
+    text-align: center;
+}
+
+h1
+{
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-size: 50px;
+}

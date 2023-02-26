@@ -1,0 +1,25 @@
+body
+{
+    background-color: azure;
+}
+
+h1
+{
+    font-size: 40px;
+    
+}
+
+div
+{
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+
+div p
+{
+    column-count: 2;
+    column-gap: 40px;
+    text-align: justify;
+
+}

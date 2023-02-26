@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> Pseudo Element Selector </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+    <style>
+        body
+        {
+            margin:0;
+            padding:0;
+            background-color: black;
+        }
+
+        .heading
+        {
+            
+            margin-top: 2%;
+            font-size: 50px;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .form
+        {
+            background-color: pink;
+            width:50%;
+            height:300px;
+            margin-top: 2%;
+            padding: 2%;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+
+        input[type="text"], input[type="password"]
+        {
+            width: 300px;
+            height: auto;
+            padding: 5px;
+            font-size: 18;
+            background-color: ivory;
+            border-radius: 8px;
+        }
+
+        input[type="submit"]
+        {
+            width: 100px;
+            height: auto;
+            padding: 5px;
+            color: black;
+            border-radius: 8px;
+        }
+
+        ::placeholder
+        {
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <center>
+        <h1 class="heading"> LOGIN </h1>
+        <hr width="10%" color="white">
+        <br>
+        
+        <form class="form">
+            <label id="userlabel" name="username"> Username </label> &nbsp;
+            <input type="text" id="usertext" name="user" placeholder="Enter Username">
+            <br><br>
+
+            <label id="pswlabel" name="passwordlabel"> Password </label> &nbsp;
+            <input type="password" id="pswtext" name="passwordtext" placeholder="Enter PasswordS">
+            <br><br>
+
+            <a href="#" style="color:black;"> Forgot Password </a>
+            <br><br>
+
+            <input type="submit" id="sbmtlogin" name="submitbtn" value="Login">
+            <br><br>
+
+            Don't have an account? <a href="#" style="color:black;"> Sign Up </a> 
+        </form>
+        </center>
+
+    </div>
+
+</body>
+</html>

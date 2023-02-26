@@ -1,0 +1,31 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+.navbarlink
+{
+    width:100%;
+    height:auto;
+}
+
+.navbarlink ul li
+{
+    display: inline-block;
+    padding: 5px 25px;
+    font-size: 18px;
+}
+
+.navbarlink a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+}
