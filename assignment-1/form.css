@@ -1,0 +1,200 @@
+.form
+{
+    height: auto;
+    width: 100%;    
+}
+
+.element
+{
+    height: auto;
+    width: 70%;
+    background-color: yellowgreen;
+    margin:5%;
+    padding: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+
+}
+
+h1
+{
+    font-style: normal;
+    font-weight: bolder;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.element div
+{
+    height: auto;
+    width: 90%;
+    background-color: rgba(187, 222, 112, 0.975);
+}
+
+label
+{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+input[type="text"], input[type="email"], input[type="tel"],  textarea
+{
+    border: none;
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 16%;
+    letter-spacing: 1px;
+}
+
+input[type="radio"]
+{
+    font-size: larger;
+    font-weight: bolder;
+    width:15px;
+    height:15px;
+}
+
+::placeholder
+{
+    font-size: large;
+    font-weight: lighter;
+    text-align: center;
+    color: gray;
+    letter-spacing: 1px;
+}
+
+input[type="submit"]
+{
+    height: auto;
+    width: 30%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+    font-size: larger;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+}
+
+#name
+{
+    height: auto;
+    width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    letter-spacing: 1px;
+}
+
+#email
+{
+    height: auto;
+    width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    letter-spacing: 1px;
+}
+
+#phone
+{
+    height: auto;
+    width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    letter-spacing: 1px;
+}
+
+#address
+{
+    height: auto;
+    width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    letter-spacing: 1px;
+}
+
+#postcode
+{
+    height: auto;
+    width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    letter-spacing: 1px;
+}
+
+#country
+{
+    height: auto;
+    width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    letter-spacing: 1px;
+}
+
+#card-type
+{
+    height: auto;
+    width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    letter-spacing: 1px;
+}
+
+#card-number
+{
+    height: auto;
+    width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    letter-spacing: 1px;
+}
+
+#security-code
+{
+    height: auto;
+    width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    letter-spacing: 1px;
+}
+
+#name
+{
+    height: auto;
+    width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    letter-spacing: 1px;
+}
+
+#card-name
+{
+    height: auto;
+    width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    letter-spacing: 1px;
+}

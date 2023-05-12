@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> User Information Form </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='form.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+    <!-- This form is to get details from User  -->
+
+    <!-- FORM START -->
+    <div class="form" >
+
+        <form action="#" method="post" class="element">
+            
+            <!-- USER DETAILS START -->
+            <h1> Step 1: Your Details  </h1>
+            
+                <!-- NAME -->
+                <div id="name">
+                    <label> Name </label>
+                    <input type="text" name="txtname" placeholder="First and last name" required> 
+                </div>
+                <br>
+
+                <!-- EMAIL -->
+                <div id="email">
+                    <label> Email </label>
+                    <input type="email" name="txtemail" placeholder="example@domain.com" required>
+                </div>
+                <br>
+
+                <!-- PHONE -->
+                <div id="phone">
+                    <label> Phone </label>
+                    <input type="tel" name="txtphone" placeholder="+91 1234567890" required>
+                </div>
+                <br>
+            <!-- USER DETAILS END -->
+
+
+            <!-- DELIVERY ADDRESS START -->
+            <h1> Step 2: Your delivery address </h1>
+
+                <!-- ADDRESS -->
+                <div id="address">
+                    <label> Address </label>
+                    <textarea name="txtaddress" required>
+                    </textarea>
+                </div>
+                <br>
+
+                <!-- POST CODE -->
+                <div id="postcode">
+                    <label> Post code </label>
+                    <input type="text" name="txtpostcode" required>
+                </div>
+                <br>
+
+                <!-- COUNTRY -->
+                <div id="country">
+                    <label> Country </label>
+                    <input type="text" name="txtcountry" required>
+                </div>
+                <br>
+            <!-- DELIVERY ADDRESS END -->
+
+
+            <!-- CARD DETAILS START -->
+            <h1> Step 3: Card details </h1>
+                
+                <!-- CARD TYPE -->
+                <div id="card-type">
+                    <label> Card type </label> <br><br>
+                    <input type="radio"  name="radiobtn" radiogroup="card" value="VISA" required> <img src="visa.png" height="20px" width="35px"> <b style="font-size: 20px;"> VISA </b> 
+                    <input type="radio"  name="radiobtn" radiogroup="card" value="AmEx" required> <img src="amex.png" height="20px" width="35px"> <b style="font-size: 20px;"> AmEx </b>
+                    <input type="radio"  name="radiobtn" radiogroup="card" value="Master Card" required> <img src="master-card.png" height="20px" width="35px"> <b style="font-size: 20px;"> Master Card </b>
+                </div>
+                <br>
+
+                <!-- Card number -->
+                <div id="card-number">
+                    <label> Card number </label>
+                    <input type="text" name="txtcardnumber" required>
+                </div>
+                <br>
+
+                <!-- SECURITY CODE -->
+                <div id="security-code">
+                    <label> Security code </label>
+                    <input type="text" name="txtsecuritycode" required>
+                </div>
+                <br>
+
+                <!-- NAME ON CARD -->
+                <div id="card-name">
+                    <label> Name on card </label>
+                    <input type="text" name="txtcardnm" placeholder="Exact name as on the card" required>
+                </div>
+                <br>
+            <!-- CARD DETAILS END -->
+
+            <!-- SUBMIT BUTTON -->
+            <div style="background-color: yellowgreen;" align="center">
+                <input type="submit" name="submitbtn" value="BUY IT!" id="sub">
+            </div>
+
+        </form>
+    </div>
+    <!-- FORM END -->
+</body>
+</html>
