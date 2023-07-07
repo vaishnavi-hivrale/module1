@@ -1,0 +1,9 @@
+<?php
+    require("head.php");
+    require("header.php");
+	require("menu.php");
+	require("slider.php");
+	require("banner.php");
+	require("content.php");
+	require("footer.php");
+?> 	
