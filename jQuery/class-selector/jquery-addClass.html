@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> | jquery - class selector </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='../js/jquery.js'> </script>
+
+    <style> 
+        .div-content
+        {
+            width:70%;
+            height:"auto";
+            margin-top:5%;
+            margin-left:5%;
+            padding:2%;
+            background-color: royalblue;
+            color:white;
+        }
+    </style>
+
+    <!-- javascript start -->
+    <script>
+        // jquery start
+        jQuery(document).ready
+        (
+            function()
+            {
+                jQuery("#btn").click
+                (
+                    function()
+                    {
+                        jQuery("b").append("<b> Hivrale <b>")
+                    }
+                )
+
+                jQuery("div").addClass("div-content")
+            }
+        )
+        // jquery end
+    </script>
+    <!-- javascript end -->
+</head>
+<body>
+    <div>
+        <center>
+
+            <b> Vaishnavi </b> <br><br>
+            <button type="button" id="btn"> Append surname </button>
+
+        </center>
+    </div>
+</body>
+</html>

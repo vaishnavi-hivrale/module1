@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> | login </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- bvalidator css file -->
+    <link rel='stylesheet' type='text/css' media='screen' href='css/gray.css'>
+    
+    <!-- bootstrap css files (online cdn) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+    <!-- bootstrap js files (online cdn) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <!-- jquery offline cdn and bvalidator js files -->
+    <script src='js/jquery.js'></script>
+    <script src='js/jquery.bvalidator.min.js'></script>
+    <script src='js/gray.js'></script>
+    <script src='default.js'></script>
+
+    <!-- jquery start -->
+    <script>
+      $(document).ready
+      (
+        function()
+        {
+          $("#login").bValidator();
+        }
+      )
+    </script>
+    <!-- jquery end -->
+
+    <!-- css -->
+    <style>
+        body
+        {
+            margin:0;
+            padding:0;
+            width:100%;
+            height:auto;
+            overflow-x:hidden;
+        }
+
+      .navbar-link ul li
+      {
+        padding: 5px 25px;
+        font-size: 18px;
+      }
+
+      .dropdown:hover .dropdown-menu
+      {
+        display: block;
+      }
+    </style>
+</head>
+
+<body>
+
+  <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg bg-dark text-white p-3 shadow">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="index.html"> <h2> Online Shopping </h2> </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse navbar-link" id="navbarSupportedContent">
+        
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 50%;">
+          
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link text-white" href="cart.html"> cart </a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Account </a>
+                
+            <ul class="dropdown-menu">
+                
+              <li><a class="dropdown-item" href="login.html"> Login </a></li>
+              <li><a class="dropdown-item" href="register.html"> Register </a></li>
+              
+            </ul>
+          
+          </li>
+
+        </ul>
+            
+        <form class="d-flex" role="search">  
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-white" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+    
+  <!-- contaner-fluide start -->
+  <div class="container-fluide mt-0 p-3">
+    
+    <!-- grid strat -->
+    <div class="row">
+
+      <!-- column 1 start -->
+      <div class="col-md-6">
+        <img src="images/login.webp" class="image-fluide" style="width:100%">
+      </div>
+      <!-- column 1 end -->
+
+      <!-- column 2 start -->
+      <div class="col-md-6">
+
+        <!-- form start -->
+        <form  id="login" class="mt-5 p-5 shadow" action="welcome.html" >
+          
+          <!-- form heading -->
+          <h1 class="text-center"> Login Form </h1>
+          <hr class="border border-2 border-dark w-25 mx-auto"> 
+    
+          <!-- email -->
+          <div class="mb-3">
+            <label class="form-label">Email address</label>
+            <input type="email" class="form-control" data-bvalidator="required,email" placeholder="name@example.com">
+          </div>
+    
+          <!-- password -->
+          <div class="mb-3">
+            <label class="form-label"> Password</label>
+            <input type="password" class="form-control" data-bvalidator="required,minlen[4],maxlen[8]" placeholder="Enter password"> <br>
+            <a href=""> Forgot Password ? </a>
+          </div>
+    
+          <!-- submit btn -->
+          <div class="mb-3">
+            <input type="submit" class="btn btn-primary" id="sub" value="Login"> <br><br>
+            Don't have an account ? <a href="register.php"> Create here </a>
+          </div>
+        
+        </form>
+        <!-- form end -->
+      
+      </div>
+      <!-- column 2 end -->
+
+    </div>
+    <!-- grid end -->
+
+  </div>
+  <!-- container-fluide  end -->
+</body>
+</html>
