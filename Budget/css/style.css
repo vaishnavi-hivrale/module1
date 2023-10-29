@@ -1,0 +1,98 @@
+body
+{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    box-sizing:border-box;
+    background-color: #f4fdff;
+}
+
+.sidebar
+{
+    height:100%;
+    width: 300px !important;
+    position:fixed;
+    z-index: 1;
+    top : 0;
+    left:0;
+    background-color: navy;
+    color: white;
+}
+
+.sidebar a
+{
+    text-decoration:none;
+    padding:6px 8px 6px 16px;
+    font-size:18px;
+    color:white;
+    display:block;
+    margin-left:0 !important;
+}
+
+.sidebar a:hover 
+{
+    color: navy;
+    background-color: skyblue;
+    width: 250px !important;
+    padding:10px;
+}
+
+.sidebar li
+{
+    list-style-type: none;
+}
+
+.content 
+{
+    margin-left: 300px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+.footer
+{
+    background-color:skyblue;
+    color:navy;
+    position:relative;
+    margin-left:300px;
+    left : 0;
+    bottom:0;
+    right:0;
+}
+
+.frm
+{
+    background-color:#6f8695;
+    border-color: navy;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.frm-heading h3
+{
+    color:#f4fdff;
+    border-radius:15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color:navy
+}
+
+.frm label
+{
+    color:#f4fdff;
+}
+
+.frm input[type="submit"], input[type="reset"]
+{
+    color:#f4fdff;
+    background-color: navy;
+    border:#f4fdff;
+    border-style: solid;
+}
+
+.frm input[type="submit"]:hover, input[type="reset"]:hover
+{
+    color:navy;
+    background-color: #f4fdff; 
+    border:navy;
+    border-style: solid;
+}
